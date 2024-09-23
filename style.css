@@ -1,0 +1,22 @@
+.chart {
+    text-align: center;
+    padding: 10px 10px 25px 10px;
+    background: #fff;
+    width: 600px;
+    height: 450px;
+
+  }
+  .chart svg {
+    overflow: visible;
+  }
+
+  /* axe transparente */
+  .domain {
+    color: transparent;
+  }
+
+
+  .chart .overlay {
+    fill: none;
+    pointer-events: all;
+  } 
